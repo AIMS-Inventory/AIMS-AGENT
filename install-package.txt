@@ -1,0 +1,3 @@
+Due to binaries being over too large to upload on github the AIMS AGENT package can be installed via drive below (.zip or .7z): 
+
+https://drive.google.com/drive/folders/1V79iFaRZ3ZGyV6ruT_zsJJrCGOlNpHn3?usp=sharing
