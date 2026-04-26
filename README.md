@@ -33,45 +33,28 @@ The AIMS Visualizer is built on **Qt 6 (QML)** specifically for the AIMS Agent. 
 
 ## Developer Setup
 
-## **WE PROVIDE THE BUILDS!**
-The aims-ai directory is already built as its custom orchestrator!
--We provide the builds for the arm64 jetson deployment and windows!
--However this document will later get into compiling if you're interested. 
+---
+### PACKAGE INSTALLATION
+**-go to install-package.txt and download one of the zips via the drive link and extract folder in jetson orin nano**
+    ```
+---
 
 ---
 ### Hardware Deployment (Jetson)
 To deploy AIMS to your physical hardware:
 1  **Initialize the Hardware**:
     ```bash
-    chmod +x setup_jetson_hardware.sh
-    ./setup_jetson_hardware.sh
+    chmod +x jetson_dependencies.sh
+    ./jetson_dependencies.sh
     ```
 3.  **Launch the Mission**:
     ```bash
     ./aims-ai
     ```
----
-
-### **For Jetson Orin Nano (Cross-Build)**
-We use a WSL2 cross-compilation pipeline.
-1.  Open your **WSL2 (Ubuntu 24.04)** terminal.
-2.  Run the cross-build engine:
+3.  **Launch the Mission**:
     ```bash
-    ./cross_build_jetson.sh
+    ./aims-ai
     ```
-3.  This will generate a root-level `aims-ai` launcher and a optimized ARM64 binary.
-
----
-
-## **For Windows Developers**
-The project is fully automated via Python.
-1.  Ensure you have **Python 3.x** and **Qt 6** installed.
-2.  Run the python build script:
-    ```powershell
-    python win-build.py
-    ```
-3.  Launch the console via `aims-ai.exe` in the root.
-
 ---
 
 ##   Project Structure
