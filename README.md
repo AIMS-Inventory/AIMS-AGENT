@@ -42,7 +42,8 @@ To deploy AIMS to your physical hardware:
 ## The Vision
 AIMS AI is more than just a prediction engine. It is a regression-based inference system designed to combine analytical prediction with adaptive reasoning.
 
-<img width="620" height="256" alt="vision-diagram" src="[https://github.com/user-attachments/assets/4f1cbe3f-b55c-4b95-aa90-72c4995a63b0](https://github.com/user-attachments/assets/4f1cbe3f-b55c-4b95-aa90-72c4995a63b0)" />
+<img width="655" height="280" alt="image" src="https://github.com/user-attachments/assets/e6e9a5ff-d2b6-4d44-ad46-535af181279c" />
+
 
 ---
 
@@ -54,7 +55,7 @@ The AIMS Visualizer is built on **Qt 6 (QML)** specifically for the AIMS Agent. 
 * **Audit Logs**: Deep-trace capabilities for historical mission data.
 * **Hardware Parity**: The `win` and `flex` directories ensure the UI looks identical whether you're on a desktop or an embedded ARM device.
 
-<img width="624" height="272" alt="ui-preview" src="[https://github.com/user-attachments/assets/517be9d9-2878-4d39-9463-8aa911048593](https://github.com/user-attachments/assets/517be9d9-2878-4d39-9463-8aa911048593)" />
+<img width="694" height="857" alt="image" src="https://github.com/user-attachments/assets/1ab4a6bc-8a44-4c86-baae-cd7c8f018e8f" />
 
 ---
 
@@ -65,6 +66,8 @@ The AIMS Visualizer is built on **Qt 6 (QML)** specifically for the AIMS Agent. 
     * **Eigen**: For high-performance linear algebra.
 * **UI Framework**: Qt 6.5+ (Quick/QML).
 * **Database**: Localized `.yaml` and `.csv` deep-storage for air-gapped security.
+
+<img width="640" height="670" alt="image" src="https://github.com/user-attachments/assets/170e9d36-5ae2-4b64-b1eb-cd4083289f3e" />
 
 ---
 
